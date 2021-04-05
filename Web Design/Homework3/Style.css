@@ -1,0 +1,22 @@
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+}
+h2{text-align: center;}
+a.green{color: greenyellow;}
+a.cyan{color: cyan;}
+a{color: blueviolet;}
+div.A{text-align: justify; position: absolute; left: 150px;right: 150px;}
+
+.column {
+    float: left;
+    width: 120px;
+    height: 100px;
+    padding: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
