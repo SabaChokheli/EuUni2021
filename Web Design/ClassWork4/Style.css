@@ -1,0 +1,12 @@
+table{
+    border: black solid 2px;
+    margin: auto;
+    width: 700px;
+    height: 400px;
+}
+tr, th{border:black solid 2px;}
+tfoot{background-color: green;
+text-align: center;
+font-size: 30px;
+height: 20px;}
+p{text-align: left;}
