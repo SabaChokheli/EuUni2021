@@ -1,0 +1,36 @@
+table{
+    border: black solid 2px;
+    margin: auto;
+    width: 800px;
+    height: 400px;
+}
+th,td{border:black solid 2px;}
+tfoot{background-color: green;
+text-align: center;
+font-size: 20px;
+height: 20px;}
+p.test{text-align: left;}
+
+
+th.red{border:black solid 2px; background-color: red;
+text-align: left;}
+table.Work1{ background-color: lightgray;
+    border-collapse: collapse;
+   height: 100%;
+    width: 100%;}
+
+    th.third{width: 150px;
+    height: initial;}
+    
+    th.green {border:black solid 2px; background-color: green;
+        text-align: left;}
+        td.white{background-color: white; width: fit-content; height: fit-content; text-align: left;}
+
+        th.blue {background-color: blue;text-align: left;width: 60px;}
+
+
+        table.Work4{width: 600px;height: 400px;}
+        td.menu{width: 120px;}
+        td.footer{width: 100px;}
+        td.header{width: 600px;height: 200px;}
+        td.blank{height: 200px;}
