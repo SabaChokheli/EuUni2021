@@ -1,0 +1,13 @@
+form{width: 750px; height: 500px; border: solid black 1px; margin: auto; padding: 10px; background: rgba(166, 226, 166, 0.904);}
+
+
+input,textarea{padding: 10px; border-radius: 4px;border: solid limegreen 1px; width: 300px; }
+
+label{color: mediumseagreen;}
+
+
+div{float: left; width: 50%; height: 400px; border: none;margin: auto;}
+.se{width: min-content;}
+
+button{ height: 40px; width: 200px; background: green; border: none; outline: none; border-radius: 5px; cursor: pointer; color: white;}
+

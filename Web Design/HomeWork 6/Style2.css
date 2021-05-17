@@ -1,0 +1,18 @@
+form{width: 650px; height: 500px; border: solid black 1px; margin: auto; padding: 10px; }
+h3{margin-left: auto; color: gray;}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px gray;
+    width: 500px;
+    margin-left: 10px;
+
+    }
+Textarea{padding: 20px;
+    border: none;
+    outline: none;
+    border-bottom: solid 2px gray;
+    width: 500px;}
+label{margin: auto; text-align: auto;color: gray;}
+ul{list-style: none;padding: 20px; margin: auto;}
