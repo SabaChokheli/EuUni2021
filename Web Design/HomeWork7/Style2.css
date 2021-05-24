@@ -1,0 +1,98 @@
+div{border-radius: 5%; margin: 2px;}
+.whole{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.first{
+    width: 300px;
+    height: fit-content;
+
+    display:flex;
+    flex-direction: column;
+
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.purple{
+    width: 100%;
+    height: 160px;
+    border: hidden;
+    background-color: indigo;
+}
+.green{
+    width: 50%;
+    height: 150px;
+    background-color: green;
+}
+.blue{
+    width: 100%;
+    height: 20%;
+    background-color: skyblue;
+}
+.red{
+    width: 100%;
+    height: 80%;
+    background-color: tomato;
+}
+.bgreen{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+.both{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+.start{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+    height: 400px;
+}
+.start2{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.both2{
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+}
+.greenvertical{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+.blue2{
+    background-color: skyblue;
+    width: 100%;
+    height: 30%;
+}
+.redvertical{
+    width: 100%;
+    height: 70%;
+    background-color: tomato;
+}
+.purple2{
+    width: 100%;
+    height: 160px;
+    background-color: indigo;
+}
