@@ -41,9 +41,9 @@
 
 .content{
     width: 700px;
-    height: 900px;
+    height: 1000px;
     border-radius: 10px;
-    border: solid 2px;
+    border: solid 1px;
     margin: auto;
     background-color: rgba(255, 244, 228, 0.816);
     display: flex;
@@ -59,8 +59,12 @@
 .right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 30%;
+    border-left: dashed grey 1px;
+    border-right: grey dashed 1px;
+    margin: auto;
+    height: 95%;
 }
 .box{
     width: 400px;
@@ -74,7 +78,7 @@
 p.green{
     color: green;
 }
-.box a{
+.content a{
     color: orangered;
     text-align: right;
     font-size: 12px;
@@ -86,6 +90,115 @@ p.green{
     border-radius: 10px;
 }
 [class*="sidemenu"]{
-    border: solid;
     height: 200px;
 }
+
+.pagebar{
+    width: 90%;
+    height: 25px;
+    border-top: dashed 1px grey;
+    border-bottom: dashed 1px grey;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    text-align: center;
+}
+.pagebar div{
+    border-radius: 2px;
+}
+.numbers:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.previews:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.next:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.next, .previews{
+    width: 20%;
+}
+.pages{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.numbers{
+    width: 8%;
+}
+
+
+.sidemenu1, .sidemenu2{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+.hr{
+    width: 80%;
+    border: dashed grey 1px;
+}
+
+.littlemenus{
+    border-bottom: dashed 1px grey;
+}
+.littlemenus p{
+    cursor: pointer;
+}
+.greenmenus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: green;
+    font-size: 12px;
+    margin: auto;
+    width: 95%;
+    height: fit-content;
+}
+
+.commentmenus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 95%;
+    height: fit-content;
+    font-size: 12px;
+}
+.comments{
+    border-bottom: dashed grey 1px;
+}
+.comments span{
+    color: green;
+}
+.sidemenu3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.greenlink, .orangelink{
+    text-align: center;
+    color: white;
+    border: solid 1px;
+    border-radius: 6px;
+    width: 80%;
+    margin: auto;
+    height: 40%;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sidemenu3 p{
+    margin-top: 30px;
+}
+.greenlink{
+    background-color: darkolivegreen;
+}
+.orangelink{
+    background-color: orangered;
+}
+.greenlink:hover, .orangelink:hover{cursor: pointer;}
