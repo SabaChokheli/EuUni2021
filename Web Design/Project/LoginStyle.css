@@ -1,0 +1,208 @@
+body{
+    font-family: Helvetica,Arial,sans-serif;
+}
+.transperent{
+    background-color: rgb(0 0 0 / 50%);
+    position: absolute;
+    top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 100%;
+   width: 100%;
+}
+.image{
+    position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   height: 100%;
+   width: 100%;
+   background-image: url("https://m.gjcdn.net/game-screenshot/700/3785246-ll-qqkr2jce-v4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+form{
+    width: 57%;
+    height: 450px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+a{
+    width: auto;
+    height: auto;
+}
+img.mainlogo{
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+.imgcontainer{
+    margin: auto;
+    margin-top: 4%;
+    width: 55%;
+    height: 25px;
+    
+    
+}
+input{
+    
+    width: 100%;
+    height: 35px;
+    background-color: #292929;
+    border: solid 1px grey;
+    border-radius: 4px;
+    color: whitesmoke;
+    margin-bottom: 8px;
+}
+button.login{
+    background-color: #ccff00;
+    color: black;
+    width: 100%;
+    height: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    margin: auto;
+}
+
+.collum{
+    margin: auto;
+    flex-direction: row;
+    display: flex;
+    width: 70%;
+    color: whitesmoke;
+}
+[class*="line_"]{
+    width: 40%;
+    border: 1px solid whitesmoke;
+    height: 0;
+}
+.or{
+    width: 20%;
+}
+button.googleb{
+    
+    height: 45px;
+    width: 85%;
+    border: none;
+    border-radius: 5px;
+    background-color: #4285f4;
+    color: whitesmoke;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.googleimg{
+    float: left;
+    height: 95%;
+}
+.but{
+    margin-left: 10px;
+    float: left;
+    color: whitesmoke;
+    font-size: 100%;
+}
+.undertext{
+    margin-right: 0;
+    color: #ccff00;
+    text-align: right;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: #ccff00;
+}
+a:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.disabledlink:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.footer{
+    margin: auto;
+    width: 50%;
+    height: 120px;
+    text-align: center;
+}
+
+.etc{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.etc a{
+    margin-right: 14px;
+    color: whitesmoke;
+}
+select{
+    width: 70%;
+    height: 40px;
+    border: solid 1px;
+    border-radius: 5px;
+    background-color: rgb(0 0 0 / 40%);
+    color: darkgrey;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+@media (min-width:798px){
+    form{
+        margin-top: 5%;
+        width: 35%;
+        height: 400px;
+        
+    }
+
+    .tablet{
+        margin: auto;
+        width: 95%;
+        height: 290px;
+        background-color: rgb(0 0 0 / 40%);border-radius: 10px;
+    }
+    input{
+        width: 85%;
+        margin-top: 10px;
+        
+    }
+    button.login, button.googleb{
+        width: 85%;
+    }
+    
+    .imgcontainer{
+        width: 80%;
+        height: 35px;
+    }
+    .undertext{
+        margin-top: -10px;
+        
+    }
+    .footer{
+        margin-top: 90px;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        position: sticky;
+        margin-left: 0;
+        width: 65%;
+        justify-content: space-between;
+    }
+    .etc{
+        width: 45%;
+        margin: auto;
+        margin-left: 20px;
+    }
+    select{
+        width: 40%;
+        margin-left: -20px;
+        
+    }
+}
